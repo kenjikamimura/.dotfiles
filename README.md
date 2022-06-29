@@ -1,6 +1,9 @@
 # .dotfiles
 
-Run commands:
-`ln -sf ~/.dotfiles/nvim/.config/nvim ~/.config`
+Install:
 
-`ln -sf ~/.dotfiles/alacritty/.config/alacritty ~/.config`
+* Alacritty `brew install --cask alacritty` 
+* Stow `brew install stow`
+
+Run commands:
+`stow . --target=$HOME/.config`   
